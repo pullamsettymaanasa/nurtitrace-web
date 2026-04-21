@@ -1,5 +1,5 @@
 export const config = {
-  apiUrl: process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000",
+  apiUrl: "/api",
   appName: process.env.NEXT_PUBLIC_APP_NAME || "NutriTrace",
 } as const;
 
